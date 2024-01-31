@@ -1,0 +1,14 @@
+<div class="background-container">
+    <section class="wrapper">
+      <div class="form signup">
+        <header>SIGNUP</header>
+        <form (ngSubmit)="onSubmit()">
+          <input type="text" placeholder="First name" type="fname" id="fname" name="fname" [(ngModel)]="signupData.fname" required>
+          <input type="text" placeholder="Last name" type="lname" id="llname" name="lname" [(ngModel)]="signupData.lname" required>
+          <input type="text" placeholder="User ID" type="userid" id="userid" name="userid" [(ngModel)]="signupData.userid" required>
+          <input type="password" placeholder="Password" type="password" id="password" name="password" [(ngModel)]="signupData.password" required>
+          <input type="submit" value="Signup" />
+        </form>
+      </div> 
+    </section>
+</div>
