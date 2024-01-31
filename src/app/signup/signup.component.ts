@@ -23,7 +23,6 @@ export class SignupComponent  {
       },
       error: (error) => {
         console.error('Signup failed', error);
-        // Handle error, e.g., display an error message
       }
     });
     
